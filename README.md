@@ -181,7 +181,9 @@ Website can be your GitHub profile or any personal webpage.
 
 # View Logs
 
-      sudo journalctl -u popcache
+      tail -f /opt/popcache/logs/stdout.log 
+      
+# Detach screen: CTRL AD
 
 # 🧰 Optional: Manage Node
 # Stop the Node
