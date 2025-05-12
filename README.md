@@ -34,6 +34,15 @@ Backup the old node_info.json file located in the pipe folder at your root direc
           sudo rm /etc/systemd/system/pipe
           sudo systemctl daemon-reload
 
+
+# Create new screen
+                
+        sudo apt install git -y
+
+# sudo apt install screen
+
+        screen -S pipe
+        
 # Open Required Ports
 
           sudo ufw allow 80/tcp
