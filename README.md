@@ -35,11 +35,11 @@ Backup the old node_info.json file located in the pipe folder at your root direc
           sudo systemctl daemon-reload
 
 
-# Create new screen
-                
+# sudo apt install screen
+
         sudo apt install git -y
 
-# sudo apt install screen
+        sudo apt install screen
 
         screen -S pipe
         
