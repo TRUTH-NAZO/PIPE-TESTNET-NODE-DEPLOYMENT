@@ -81,7 +81,6 @@ Update Kernel Parameters
           *    soft nofile 65535
           EOL'
 
-Note: Reboot or log out and back into your VPS after setting limits.
 
 # Create Required Directories
 
