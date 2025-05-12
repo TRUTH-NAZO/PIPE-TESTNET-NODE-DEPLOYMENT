@@ -181,3 +181,6 @@ Website can be your GitHub profile or any personal webpage.
       sudo systemctl daemon-reload
       sudo systemctl enable popcache
       sudo systemctl restart popcache
+
+# Follow me on X and stay updated
+Twitter - https://x.com/0x_nazo
