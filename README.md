@@ -42,6 +42,12 @@ Backup the old node_info.json file located in the pipe folder at your root direc
         sudo apt install screen
 
         screen -S pipe
+
+# Enable  Firewall
+        
+        ufw allow 22
+        ufw allow ssh
+        ufw enable
         
 # Open Required Ports
 
