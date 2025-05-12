@@ -19,6 +19,9 @@ Network: Stable 24/7 internet connectivity
 
 If you've previously run a devnet node, follow these steps before proceeding.
 
+# You will need a VPS, you can get from PQ hosting or Contabo. Buy your VPS from any of these two below
+https://contabo.com https://pq.hosting/en/
+
 # Backup Existing Node Info
 Backup the old node_info.json file located in the pipe folder at your root directory.
 
