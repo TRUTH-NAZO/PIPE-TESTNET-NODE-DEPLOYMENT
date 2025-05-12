@@ -72,10 +72,9 @@ Update Kernel Parameters
           net.core.rmem_max = 16777216
           EOL'
           sudo sysctl -p /etc/sysctl.d/99-popcache.conf
-          Set File Limits
-          bash
-          Copy
-          Edit
+          
+# Set File Limits
+          
           sudo bash -c 'cat > /etc/security/limits.d/popcache.conf << EOL
           *    hard nofile 65535
           *    soft nofile 65535
